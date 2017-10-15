@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-import { Tabs, TabList, Tab, TabPanel } from '../../src/index.js'
+import { Tabs, TabList, Tab, TabPanel } from '../../src/index'
 
 const App = () => {
   return (

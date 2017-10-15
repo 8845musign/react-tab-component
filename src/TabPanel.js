@@ -8,3 +8,5 @@ export default class TabPanel extends React.Component {
     );
   }
 }
+
+TabPanel.tabsRole = 'TabPanel'

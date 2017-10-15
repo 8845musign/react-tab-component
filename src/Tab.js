@@ -8,3 +8,5 @@ export default class Tab extends React.Component {
     );
   }
 }
+
+Tab.tabsRole = 'Tab'
