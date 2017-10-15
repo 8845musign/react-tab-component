@@ -25,8 +25,9 @@ export default class Tabs extends React.Component {
   getChildren() {
     let index = 0
 
-    this.tabIds = this.tabIds || [];
-    this.panelIds = this.panelIds || [];
+    this.tabIds = this.tabIds || []
+    this.panelIds = this.panelIds || []
+    this.tabNodes = this.tabNodes || {}
 
     let diff = this.tabIds.length - this.getTabsCount()
 
